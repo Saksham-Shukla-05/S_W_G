@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="snake.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="top-pannel">
+            <div class="score">User
+                <div id="userScore" class="players">0</div>
+            </div>
+            
+            
+            
+            <div class="score">Comp
+                <div id="CompScore" class="players">0</div>
+            </div>
+        </div>
+
+
+        <div id="midpannel" class="mid-pannel">
+            <div class="moves">
+                <p id="move-txt">Your Move</p>
+                <img src="" id="User-Move" alt="User-Move">
+            </div>
+
+            <div class="vs">v/s
+                <p id="Tie">It's a tie </p>
+                <p id="userWon">User won </p>
+                <p id="compWon">Computer won </p>
+                <p id="IncRound"></p>
+            </div>
+            
+            <div class="moves">
+                <p id="move-comp-txt">Computer's Move</p>
+                <img src="" id="Comp-Move" alt="">
+            </div>
+        </div> 
+
+
+        <div class="bottom-pannel">
+            <div id="snake" class="my-move"><img src="images/new-snake-removebg-preview.png" alt=""></div>
+            <div id="water" class="my-move"><img src="images/water-removebg-preview.png" alt=""></div>
+            <div id="gun" class="my-move"><img src="images/gun-removebg-preview.png" alt=""></div>
+        </div>
+        
+    </div>
+
+    <script src="snake.js"></script>
+</body>
+
+</html>
